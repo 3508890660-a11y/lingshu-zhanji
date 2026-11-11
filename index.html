@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="data:," />
+<title>灵枢战纪 · 观战台</title>
+<link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">灵枢战纪<span>观战台 v0.1</span></div>
+  <div class="ctrl">
+    <label class="field">种子 <input id="seed" type="number" value="20261105" /></label>
+    <button id="btn-run" class="primary">开局</button>
+    <button id="btn-play">▶ 播放</button>
+    <button id="btn-step">单步</button>
+    <button id="btn-reset">重来</button>
+    <label class="field">速度 <input id="speed" type="range" min="1" max="10" value="5" /></label>
+    <span id="progress" class="progress">— / —</span>
+  </div>
+</header>
+
+<main class="stage">
+  <!-- 左方 -->
+  <section class="player" id="p0">
+    <div class="p-head">
+      <select class="sel-ai" data-side="0"></select>
+      <select class="sel-color" data-side="0"></select>
+    </div>
+    <div class="p-stats">
+      <div class="stat life"><span class="k">生命</span><span class="v">20</span></div>
+      <div class="stat res"><span class="k">资源</span><span class="v">0</span></div>
+      <div class="stat deck"><span class="k">牌库</span><span class="v">30</span></div>
+    </div>
+    <div class="avatar"><span class="aname">—</span><span class="adesc"></span></div>
+    <div class="label">手牌 <span class="handcount"></span></div>
+    <div class="hand"></div>
+    <div class="label">场面</div>
+    <div class="board"></div>
+    <div class="lands"></div>
+  </section>
+
+  <!-- 中间 -->
+  <section class="center">
+    <div class="roundbar">
+      <span id="roundtext">等待开局</span>
+      <span id="phases"></span>
+    </div>
+    <div class="market" id="market" hidden>
+      <span class="mk-title">市场区</span>
+      <div class="mk-row" id="marketrow"></div>
+    </div>
+    <div class="log" id="log"></div>
+  </section>
+
+  <!-- 右方 -->
+  <section class="player" id="p1">
+    <div class="p-head">
+      <select class="sel-ai" data-side="1"></select>
+      <select class="sel-color" data-side="1"></select>
+    </div>
+    <div class="p-stats">
+      <div class="stat life"><span class="k">生命</span><span class="v">20</span></div>
+      <div class="stat res"><span class="k">资源</span><span class="v">0</span></div>
+      <div class="stat deck"><span class="k">牌库</span><span class="v">30</span></div>
+    </div>
+    <div class="avatar"><span class="aname">—</span><span class="adesc"></span></div>
+    <div class="label">手牌 <span class="handcount"></span></div>
+    <div class="hand"></div>
+    <div class="label">场面</div>
+    <div class="board"></div>
+    <div class="lands"></div>
+  </section>
+</main>
+
+<footer class="dock">
+  <nav class="tabs">
+    <button data-tab="decks" class="active">卡组</button>
+    <button data-tab="build">组卡</button>
+    <button data-tab="scripts">脚本</button>
+    <button data-tab="help">说明</button>
+    <span class="spacer"></span>
+    <span class="hint" id="statusline"></span>
+  </nav>
+
+  <div class="pane active" id="pane-decks">
+    <div class="deckcol">
+      <div class="deckhead">
+        <span>左方卡组</span>
+        <span class="row">
+          <select class="sel-pre" data-side="0"></select>
+          <button class="mini" data-act="autobuild" data-side="0">按脚本重建</button>
+        </span>
+      </div>
+      <textarea id="deck0" spellcheck="false" placeholder="3x LQ01-037
+3x LQ01-038
+..."></textarea>
+      <div class="deckinfo" id="deckinfo0"></div>
+    </div>
+    <div class="deckcol">
+      <div class="deckhead">
+        <span>右方卡组</span>
+        <span class="row">
+          <select class="sel-pre" data-side="1"></select>
+          <button class="mini" data-act="autobuild" data-side="1">按脚本重建</button>
+        </span>
+      </div>
+      <textarea id="deck1" spellcheck="false"></textarea>
+      <div class="deckinfo" id="deckinfo1"></div>
+    </div>
+  </div>
+
+  <div class="pane" id="pane-build">
+    <div class="buildwrap">
+      <div class="poolcol">
+        <div class="deckhead">
+          <span>卡池 <b id="poolcount">—</b></span>
+          <span class="row">
+            <input id="searchcard" placeholder="搜卡名 / 编号" />
+            <select id="fcolor"><option value="">全色</option></select>
+            <select id="ftype"><option value="">全类型</option></select>
+            <select id="fcost"><option value="">全费用</option></select>
+          </span>
+        </div>
+        <div class="poollist" id="poollist"></div>
+      </div>
+      <div class="deckbuild">
+        <div class="deckhead">
+          <span>卡组 <b id="buildtotal">0</b> 张 · <b id="buildnames">0</b> 名目</span>
+          <span class="row">
+            <button class="mini" id="btn-clear">清空</button>
+            <button class="mini" id="btn-to-left">载入左方</button>
+            <button class="mini" id="btn-to-right">载入右方</button>
+          </span>
+        </div>
+        <div class="curve" id="curve"></div>
+        <div class="buildlist" id="buildlist"></div>
+        <div class="deckinfo" id="buildinfo"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pane" id="pane-scripts">
+    <div class="scriptcol">
+      <div class="deckhead">脚本编辑器 <button class="mini" id="btn-save-script">保存并加载</button><button class="mini" id="btn-load-agents">载入模型脚本</button></div>
+      <textarea id="scriptsrc" spellcheck="false"></textarea>
+      <input id="scriptname" placeholder="脚本名" />
+      <div class="deckinfo" id="scriptinfo"></div>
+    </div>
+    <div class="scriptcol">
+      <div class="deckhead">已保存的脚本</div>
+      <div id="scriptlist" class="scriptlist"></div>
+      <div class="deckhead" style="margin-top:12px">接口速查</div>
+      <pre class="api">build(pool)            → [{id,n}] 或 '3x LQ01-037'
+choose(view, moves)    → moves 中的某一个
+
+view.me   { color, life, res, resName, hand[], board[], lands[], deck, grave, plays }
+view.opp  { color, life, res, resName, handCount, board[], lands[], deck }
+move      { type:'play', i, target? } | { type:'attack', uid, target } | { type:'pass' }
+target    = uid 或 'face'（打脸）</pre>
+    </div>
+  </div>
+
+  <div class="pane" id="pane-help">
+    <div class="help">
+      <h3>这是什么</h3>
+      <p>一个「无头规则引擎 + 脚本 AI + 事件回放」的观战台。整局先在内存里跑完，产出 <code>steps[]</code>，界面只是按速度重放快照 —— 所以暂停、单步、拖速度都不影响对局本身。</p>
+      <h3>操作</h3>
+      <ol>
+        <li>左右各选一个 AI 脚本与颜色（脚本可以自带组卡，也可以用手写卡组）。</li>
+        <li>想自己组：切到「组卡」页，左选卡池右看卡组，点一下加一张，<b>载入左方 / 载入右方</b>即可开局。同名最多 3 张，25~40 张合法。</li>
+        <li>想直接开打：在「卡组」页右上角选一副<b>预组</b>（YD01-01~11），会自动填好 30 张并同步颜色。</li>
+        <li>点「开局」：引擎用固定种子跑完整局。</li>
+        <li>「播放 / 单步 / 速度」只控制回放，不改变结果；同种子同脚本必然复现同一局。</li>
+      </ol>
+      <h3>本版实装范围</h3>
+      <ul>
+        <li>卡池 231 张（30 张灵体／进化链／外枢不在对战池内），其中每色 ≥11 张可用。</li>
+        <li><b>生命卡已实装</b>：每方 20 张（16 基础 ＋ 4 特效），受伤时逐张翻入损伤区，特效卡各触发一次。回复＝把损伤区的卡放回生命卡组底部。</li>
+        <li><b>灵体卡已实装</b>：每方 1 张，带 1 条被动 ＋ 1 条每回合 1 次的启动能力（面板上会显示名称与说明，用掉后变暗）。</li>
+        <li>11 色资源系统全部实装，但做了一层简化：黑的牺牲值按回合自动生成、紫的骰池按回合投掷、橙的锻造按装备数计算。</li>
+        <li>未实装：市场区、升灵仪式、魂装、潮汐相位、连击／涡流、反击、进化链。</li>
+        <li>这些卡在生成时被标为 <code>unsupported</code>，不会进入卡池，也不会被脚本选到。</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="./js/ui/app.js"></script>
+</body>
+</html>

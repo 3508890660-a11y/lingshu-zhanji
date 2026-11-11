@@ -1,0 +1,473 @@
+{
+  "runAt": "2026-11-06T01:19:36.822Z",
+  "seeds": 4,
+  "pairCount": 66,
+  "totalGames": 528,
+  "standings": [
+    {
+      "id": "hy4",
+      "model": "hy4",
+      "modelId": "hy4std",
+      "color": "红",
+      "strategy": "赤刃三段抢血",
+      "name": "hy4 · 赤刃三段抢血",
+      "desc": "执行模型 hy4std；颜色 红；策略 赤刃三段抢血；依据卡面冲锋/怒火/直伤与激情门槛递减补牌规则，采用低曲线铺场抢血快攻",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 18,
+          "3-4": 12,
+          "5-6": 0,
+          "7+": 0
+        },
+        "names": [
+          "3x 赤刃幼虎",
+          "3x 怒火新兵",
+          "3x 熔岩裂爪",
+          "3x 掷火散兵",
+          "3x 暴走狂犬",
+          "3x 血斧掷颅手",
+          "3x 烬原猛虎",
+          "3x 战鼓蛮兵",
+          "3x 烈阳断刃",
+          "3x 焚天血咒"
+        ]
+      },
+      "games": 88,
+      "wins": 67,
+      "losses": 21,
+      "draws": 0,
+      "points": 67,
+      "winRate": 76.14,
+      "avgSteps": 45.1
+    },
+    {
+      "id": "kimi31pro",
+      "model": "KIMI 3.1pro",
+      "modelId": "kimi-k3.1-pro",
+      "color": "红",
+      "strategy": "赤锋燃血快攻",
+      "name": "KIMI 3.1pro · 赤锋燃血快攻",
+      "desc": "执行模型 kimi-k3.1-pro；颜色 红；策略 赤锋燃血快攻；以冲锋铺场、战鼓增益与直伤收尾。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 18,
+          "3-4": 12,
+          "5-6": 0,
+          "7+": 0
+        },
+        "names": [
+          "3x 赤刃幼虎",
+          "3x 怒火新兵",
+          "3x 熔岩裂爪",
+          "3x 暴走狂犬",
+          "3x 烈阳断刃",
+          "3x 焚天血咒",
+          "3x 血斧掷颅手",
+          "3x 烬原猛虎",
+          "3x 掷火散兵",
+          "3x 战鼓蛮兵"
+        ]
+      },
+      "games": 88,
+      "wins": 62,
+      "losses": 26,
+      "draws": 0,
+      "points": 62,
+      "winRate": 70.45,
+      "avgSteps": 47.2
+    },
+    {
+      "id": "step5preview",
+      "model": "step5preview",
+      "modelId": "step-5-preview",
+      "color": "银",
+      "strategy": "方阵共鸣·铺场升灵",
+      "name": "step5preview · 方阵共鸣·铺场升灵",
+      "desc": "执行模型 step-5-preview；颜色 银；策略 方阵共鸣·铺场升灵；共鸣门槛随场上单位与地标自成长，铺场叠加永久团队增益，中后期靠外枢升灵终结对局",
+      "deck": {
+        "total": 30,
+        "unique": 13,
+        "curve": {
+          "1-2": 19,
+          "3-4": 10,
+          "5-6": 1,
+          "7+": 0
+        },
+        "names": [
+          "3x 银翼列兵",
+          "3x 银翼长枪兵",
+          "2x 银翼枪骑兵",
+          "3x 方阵壁垒",
+          "3x 征募长号",
+          "3x 银翼战马",
+          "2x 谐振晶体",
+          "2x 银翼方阵圣盾",
+          "3x 集群爆破",
+          "3x 升格逆鳞",
+          "1x 银翼重装要塞",
+          "1x 终章齐鸣",
+          "1x 方阵巨像"
+        ]
+      },
+      "games": 88,
+      "wins": 55,
+      "losses": 33,
+      "draws": 0,
+      "points": 55,
+      "winRate": 62.5,
+      "avgSteps": 70.5
+    },
+    {
+      "id": "minimaxm31flash",
+      "model": "MiniMax M3.1flash",
+      "modelId": "minimax-m3.1-flash",
+      "color": "银",
+      "strategy": "方阵共振",
+      "name": "MiniMax M3.1flash · 方阵共振",
+      "desc": "执行模型 minimax-m3.1-flash；颜色 银；策略 方阵共振：先铺银翼方阵抬共鸣门槛，再叠方阵壁垒/升格逆鳞的永久强化，最后用群体 IMP 推脸斩杀。",
+      "deck": {
+        "total": 30,
+        "unique": 15,
+        "curve": {
+          "1-2": 19,
+          "3-4": 10,
+          "5-6": 1,
+          "7+": 0
+        },
+        "names": [
+          "3x 银翼列兵",
+          "2x 银翼长枪兵",
+          "2x 银翼枪骑兵",
+          "1x 列阵",
+          "3x 方阵壁垒",
+          "3x 银翼战马",
+          "2x 方阵整列",
+          "2x 谐振晶体",
+          "1x 征募长号",
+          "3x 银翼方阵圣盾",
+          "2x 集群爆破",
+          "3x 升格逆鳞",
+          "1x 银翼重装要塞",
+          "1x 终章齐鸣",
+          "1x 方阵巨像"
+        ]
+      },
+      "games": 88,
+      "wins": 54,
+      "losses": 34,
+      "draws": 0,
+      "points": 54,
+      "winRate": 61.36,
+      "avgSteps": 74.4
+    },
+    {
+      "id": "glm53",
+      "model": "GLM5.3",
+      "modelId": "glm-5.3",
+      "color": "红",
+      "strategy": "赤焰冲锋",
+      "name": "GLM5.3 · 赤焰冲锋",
+      "desc": "执行模型 glm-5.3；颜色 红；策略 赤焰冲锋；激情门槛每回合倾泻全部手牌，低费冲锋单位＋直伤收头",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 12,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 怒火新兵",
+          "3x 赤刃幼虎",
+          "3x 熔岩裂爪",
+          "3x 掷火散兵",
+          "3x 血斧掷颅手",
+          "3x 烬原猛虎",
+          "3x 烈阳断刃",
+          "3x 焚心咒",
+          "3x 焚天血咒",
+          "3x 血红爆发"
+        ]
+      },
+      "games": 88,
+      "wins": 51,
+      "losses": 36,
+      "draws": 1,
+      "points": 51.5,
+      "winRate": 58.52,
+      "avgSteps": 47.9
+    },
+    {
+      "id": "kimi28preview",
+      "model": "KIMI 2.8preview",
+      "modelId": "kimi-k2.8-preview",
+      "color": "白",
+      "strategy": "圣盾军团（守护军团中速）",
+      "name": "KIMI 2.8preview · 圣盾军团",
+      "desc": "执行模型 kimi-k2.8-preview；颜色 白；策略 圣盾军团（守护军团中速）；依据卡面：奥蕾莉亚铺士兵+全体守护1，团结单位吃白色密度滚雪球",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 21,
+          "3-4": 9,
+          "5-6": 0,
+          "7+": 0
+        },
+        "names": [
+          "3x 圣光新兵",
+          "3x 团结轻骑",
+          "3x 守护之盾",
+          "3x 救赎圣辉",
+          "3x 圣盾亲卫",
+          "3x 军团中坚",
+          "3x 守护阵列",
+          "3x 募兵号令",
+          "3x 殉道者卫兵",
+          "3x 安息祷言"
+        ]
+      },
+      "games": 88,
+      "wins": 48,
+      "losses": 40,
+      "draws": 0,
+      "points": 48,
+      "winRate": 54.55,
+      "avgSteps": 90
+    },
+    {
+      "id": "glm53flash",
+      "model": "GLM5.3flash",
+      "modelId": "glm-5.3-flash",
+      "color": "红",
+      "strategy": "赤潮冲锋",
+      "name": "GLM5.3flash · 赤潮冲锋",
+      "desc": "执行模型 glm-5.3-flash；颜色 红；策略 赤潮冲锋（低费冲锋铺场，直伤收尾）",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 18,
+          "3-4": 9,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 赤刃幼虎",
+          "3x 怒火新兵",
+          "3x 熔岩裂爪",
+          "3x 暴走狂犬",
+          "3x 烈阳断刃",
+          "3x 掷火散兵",
+          "3x 血斧掷颅手",
+          "3x 烬原猛虎",
+          "3x 焚天血咒",
+          "3x 血红爆发"
+        ]
+      },
+      "games": 88,
+      "wins": 40,
+      "losses": 46,
+      "draws": 2,
+      "points": 41,
+      "winRate": 46.59,
+      "avgSteps": 54.1
+    },
+    {
+      "id": "deepseekv4pro",
+      "model": "deepseek v4pro",
+      "modelId": "deepseek-v4-pro",
+      "color": "红",
+      "strategy": "赤潮突袭（纯红冲锋快攻）",
+      "name": "deepseek v4pro · 赤潮突袭",
+      "desc": "执行模型 deepseek-v4-pro；颜色 红；策略 纯红冲锋快攻；门槛制激情铺场 + 冲锋打脸 + 直伤斩杀",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 18,
+          "3-4": 9,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 怒火新兵",
+          "3x 赤刃幼虎",
+          "3x 熔岩裂爪",
+          "3x 暴走狂犬",
+          "3x 掷火散兵",
+          "3x 血斧掷颅手",
+          "3x 烬原猛虎",
+          "3x 烈阳断刃",
+          "3x 焚天血咒",
+          "3x 血红爆发"
+        ]
+      },
+      "games": 88,
+      "wins": 37,
+      "losses": 49,
+      "draws": 2,
+      "points": 38,
+      "winRate": 43.18,
+      "avgSteps": 53.4
+    },
+    {
+      "id": "hy3",
+      "model": "hy3",
+      "modelId": "hy3",
+      "color": "红",
+      "strategy": "赤焰疾袭",
+      "name": "hy3 · 赤焰疾袭",
+      "desc": "执行模型 hy3；颜色 红；策略 赤焰疾袭；以冲锋单位抢血、直伤法术收尾的纯红快攻",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 21,
+          "3-4": 9,
+          "5-6": 0,
+          "7+": 0
+        },
+        "names": [
+          "3x 赤刃幼虎",
+          "3x 怒火新兵",
+          "3x 熔岩裂爪",
+          "3x 暴走狂犬",
+          "3x 烈阳断刃",
+          "3x 焚天血咒",
+          "3x 血斧掷颅手",
+          "3x 烬原猛虎",
+          "3x 掷火散兵",
+          "3x 烽燧传令官"
+        ]
+      },
+      "games": 88,
+      "wins": 35,
+      "losses": 53,
+      "draws": 0,
+      "points": 35,
+      "winRate": 39.77,
+      "avgSteps": 56.1
+    },
+    {
+      "id": "minimaxm3",
+      "model": "MiniMax M3",
+      "modelId": "minimax-m3-pay",
+      "color": "绿",
+      "strategy": "地脉生根",
+      "name": "MiniMax M3 · 地脉生根",
+      "desc": "执行模型 minimax-m3-pay；颜色 绿；策略 地脉生根（地标加速 + 廉价素材升灵 + 践踏推进）",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 9,
+          "5-6": 6,
+          "7+": 0
+        },
+        "names": [
+          "3x 幼叶之池",
+          "3x 母神共鸣地",
+          "3x 涌泉林地",
+          "3x 大地脉动",
+          "3x 盖亚幼株",
+          "3x 摇篮藤根",
+          "3x 荆棘绞杀",
+          "3x 藤海怒涛",
+          "3x 裂地巨犀",
+          "3x 林冠泰坦"
+        ]
+      },
+      "games": 88,
+      "wins": 31,
+      "losses": 57,
+      "draws": 0,
+      "points": 31,
+      "winRate": 35.23,
+      "avgSteps": 67.9
+    },
+    {
+      "id": "minimaxm27",
+      "model": "MiniMax M2.7",
+      "modelId": "minimax-m2.7",
+      "color": "绿",
+      "strategy": "地脉牧歌",
+      "name": "MiniMax M2.7 · 地脉牧歌",
+      "desc": "执行模型 minimax-m2.7；主色 绿；策略 地脉牧歌——绿法力消耗制，用幼叶之池把地标数与法力上限一起滚起来，盖亚幼株／摇篮藤根铺场、荆棘绞杀与落叶风暴清场、荒原猛犸与裂地巨犀的践踏推进斩首。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 12,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 盖亚幼株",
+          "3x 幼叶之池",
+          "3x 摇篮藤根",
+          "3x 荆棘绞杀",
+          "3x 落叶风暴",
+          "3x 林冠漫步者",
+          "3x 荒原猛犸",
+          "3x 裂地巨犀",
+          "3x 巨兽冲锋",
+          "3x 藤海怒涛"
+        ]
+      },
+      "games": 88,
+      "wins": 26,
+      "losses": 62,
+      "draws": 0,
+      "points": 26,
+      "winRate": 29.55,
+      "avgSteps": 74.4
+    },
+    {
+      "id": "deepseekv41flash",
+      "model": "deepseek v4.1flash",
+      "modelId": "deepseek-v4.1-flash",
+      "color": "绿",
+      "strategy": "地脉碾压（ramp-trample）",
+      "name": "deepseek v4.1flash · 地脉碾压",
+      "desc": "执行模型 deepseek-v4.1-flash；颜色 绿；策略 地脉碾压（ramp-trample）；地标净返还法力滚雪球，践踏巨兽把溢出伤害转脸，解牌只清关键单位。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 9,
+          "5-6": 6,
+          "7+": 0
+        },
+        "names": [
+          "3x 幼叶之池",
+          "3x 母神共鸣地",
+          "3x 摇篮藤根",
+          "3x 荆棘绞杀",
+          "3x 林冠漫步者",
+          "3x 落叶风暴",
+          "3x 荒原猛犸",
+          "3x 巨兽冲锋",
+          "3x 裂地巨犀",
+          "3x 林冠泰坦"
+        ]
+      },
+      "games": 88,
+      "wins": 19,
+      "losses": 68,
+      "draws": 1,
+      "points": 19.5,
+      "winRate": 22.16,
+      "avgSteps": 60
+    }
+  ],
+  "errors": []
+}

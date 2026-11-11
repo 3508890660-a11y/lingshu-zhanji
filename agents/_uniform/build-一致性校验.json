@@ -1,0 +1,68 @@
+{
+  "stage": "build",
+  "allIdenticalExceptId": true,
+  "containsWinRate": false,
+  "templateSha256": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee",
+  "seats": [
+    {
+      "id": "hy4",
+      "model": "hy4std",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "hy3",
+      "model": "hy3",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "glm53",
+      "model": "glm-5.3",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "glm53flash",
+      "model": "glm-5.3-flash",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "minimaxm3",
+      "model": "minimax-m3-pay",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "minimaxm31flash",
+      "model": "minimax-m3.1-flash",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "kimi31pro",
+      "model": "kimi-k3.1-pro",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "kimi28preview",
+      "model": "kimi-k2.8-preview",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "deepseekv41flash",
+      "model": "deepseek-v4.1-flash",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "deepseekv4pro",
+      "model": "deepseek-v4-pro",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "step5preview",
+      "model": "step-5-preview",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    },
+    {
+      "id": "mimov26pro",
+      "model": "mimo-v2.6-pro",
+      "sha": "3b23fe230599e928b8f6fdc4c00a81f8fd5a0a41b0c3eab66b1f7fbd9c78c4ee"
+    }
+  ]
+}

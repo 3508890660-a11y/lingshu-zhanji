@@ -1,0 +1,8 @@
+{
+  "id": "hy3",
+  "status": "completed",
+  "progress": 100,
+  "phase": "已完成",
+  "note": "自选 红；脚本与设计说明已落盘；node --check 与 selftest 均 0 异常",
+  "updatedAt": "2026-11-06T00:18:25.037Z"
+}

@@ -1,0 +1,472 @@
+{
+  "runAt": "2026-11-05T15:56:53.273Z",
+  "seeds": 4,
+  "pairCount": 66,
+  "totalGames": 528,
+  "standings": [
+    {
+      "id": "kimi28preview",
+      "model": "KIMI 2.8preview",
+      "modelId": "kimi-k2.8-preview",
+      "color": "青",
+      "strategy": "潮汐涌动（低曲线铺场＋涡流滚雪球＋调律师升灵终结）",
+      "name": "KIMI 2.8preview · 潮汐涌动",
+      "desc": "执行模型 kimi-k2.8-preview；颜色 青；策略 潮汐涌动（低曲线铺场＋涡流滚雪球＋调律师升灵终结）；法力成长快且打出越多抽越多，低曲线高频出牌收益最大",
+      "deck": {
+        "total": 30,
+        "unique": 11,
+        "curve": {
+          "1-2": 17,
+          "3-4": 12,
+          "5-6": 1,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 连击共鸣",
+          "3x 溅跃小妖",
+          "3x 风暴信使",
+          "3x 潮汐号令",
+          "2x 调律学徒",
+          "3x 潮卫·堤灵",
+          "3x 深海重压",
+          "3x 涡流长老",
+          "3x 大潮调律师",
+          "1x 月潮终曲·海灵圣母"
+        ]
+      },
+      "games": 88,
+      "wins": 74,
+      "losses": 14,
+      "draws": 0,
+      "points": 74,
+      "winRate": 84.09,
+      "avgSteps": 121.8
+    },
+    {
+      "id": "mimov26pro",
+      "model": "MIMO-v2.6-pro",
+      "modelId": "mimo-v2.6-pro",
+      "color": "青",
+      "strategy": "潮汐涡流中速",
+      "name": "MIMO-v2.6-pro · 潮汐涡流中速",
+      "desc": "执行模型 mimo-v2.6-pro；颜色 青；策略 潮汐涡流中速；24 单位换血压场，涡流长老随出牌数膨胀、月潮终曲全体强化收尾",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 12,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 连击共鸣",
+          "3x 溅跃小妖",
+          "3x 风暴信使",
+          "3x 调律学徒",
+          "3x 深海重压",
+          "3x 潮卫·堤灵",
+          "3x 涡流长老",
+          "3x 大潮调律师",
+          "3x 月潮终曲·海灵圣母"
+        ]
+      },
+      "games": 88,
+      "wins": 58,
+      "losses": 29,
+      "draws": 1,
+      "points": 58.5,
+      "winRate": 66.48,
+      "avgSteps": 128.4
+    },
+    {
+      "id": "deepseekv4pro",
+      "model": "deepseek v4pro",
+      "modelId": "deepseek-v4-pro",
+      "color": "银",
+      "strategy": "银翼方阵（共鸣门槛 + 衍生物铺场 + 永久 buff 雪球）",
+      "name": "deepseek v4pro · 银翼方阵",
+      "desc": "执行模型 deepseek-v4-pro；颜色 银；策略 银翼方阵——共鸣门槛制下以低费单位与衍生物快速铺场，用「共鸣序曲/升格逆鳞」永久 +1/+1 滚雪球，以「碎晶冲击/终章齐鸣」点杀清场后多单位 IMP 直击灵体",
+      "deck": {
+        "total": 30,
+        "unique": 13,
+        "curve": {
+          "1-2": 21,
+          "3-4": 8,
+          "5-6": 1,
+          "7+": 0
+        },
+        "names": [
+          "3x 银翼列兵",
+          "3x 银翼长枪兵",
+          "3x 银翼枪骑兵",
+          "3x 银翼战马",
+          "3x 银翼方阵圣盾",
+          "3x 征募长号",
+          "3x 共鸣序曲",
+          "3x 升格逆鳞",
+          "1x 方阵壁垒",
+          "2x 碎晶冲击",
+          "1x 银翼重装要塞",
+          "1x 终章齐鸣",
+          "1x 方阵巨像"
+        ]
+      },
+      "games": 88,
+      "wins": 58,
+      "losses": 30,
+      "draws": 0,
+      "points": 58,
+      "winRate": 65.91,
+      "avgSteps": 89.5
+    },
+    {
+      "id": "minimaxm31flash",
+      "model": "MiniMax M3.1flash",
+      "modelId": "minimax-m3.1-flash",
+      "color": "青",
+      "strategy": "潮汐引擎",
+      "name": "MiniMax M3.1flash · 潮汐引擎",
+      "desc": "执行模型 minimax-m3.1-flash；颜色 青；策略 潮汐引擎——以连击共鸣（1 费抽 2）与青色「打出数÷2 抽牌」把手牌滚成雪球，用守卫单位锁住对手的脸、潮汐帷幕的守护1 让我的单位替灵体挨打，再以深海重压拆威胁、涡流长老与月潮终曲收官。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 12,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 连击共鸣",
+          "3x 潮汐幼灵",
+          "3x 借律",
+          "3x 石肤守卫",
+          "3x 幻象连击",
+          "3x 潮卫·堤灵",
+          "3x 深海重压",
+          "3x 潮汐帷幕",
+          "3x 涡流长老",
+          "3x 月潮终曲·海灵圣母"
+        ]
+      },
+      "games": 88,
+      "wins": 56,
+      "losses": 31,
+      "draws": 1,
+      "points": 56.5,
+      "winRate": 64.2,
+      "avgSteps": 131.6
+    },
+    {
+      "id": "deepseekv41flash",
+      "model": "deepseek v4.1flash",
+      "modelId": "deepseek-v4.1-flash",
+      "color": "青",
+      "strategy": "潮汐节拍",
+      "name": "deepseek v4.1flash · 潮汐节拍",
+      "desc": "执行模型 deepseek-v4.1-flash；颜色 青（法力）；策略 潮汐节拍：1~2 费铺场抢节奏，碎晶冲击/遣返点杀开路，升灵换掉小件，6 费月潮终曲收束",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 21,
+          "3-4": 6,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 连击共鸣",
+          "3x 祭品石",
+          "3x 风暴信使",
+          "3x 碎晶冲击",
+          "3x 石肤守卫",
+          "3x 遣返",
+          "3x 潮卫·堤灵",
+          "3x 涡流长老",
+          "3x 月潮终曲·海灵圣母"
+        ]
+      },
+      "games": 88,
+      "wins": 56,
+      "losses": 32,
+      "draws": 0,
+      "points": 56,
+      "winRate": 63.64,
+      "avgSteps": 126.7
+    },
+    {
+      "id": "hy4",
+      "model": "hy4",
+      "modelId": "hy4std",
+      "color": "青",
+      "strategy": "潮涌连打",
+      "name": "hy4 · 潮涌连打",
+      "desc": "执行模型 hy4std；颜色 青；策略 潮涌连打；低费铺场触发流转与涡流，月潮终曲全体放大收束。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 12,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 溅跃小妖",
+          "3x 潮汐号令",
+          "3x 深海重压",
+          "3x 潮卫·堤灵",
+          "3x 月潮终曲·海灵圣母",
+          "3x 风暴信使",
+          "3x 连击共鸣",
+          "3x 涡流长老",
+          "3x 大潮调律师"
+        ]
+      },
+      "games": 88,
+      "wins": 51,
+      "losses": 37,
+      "draws": 0,
+      "points": 51,
+      "winRate": 57.95,
+      "avgSteps": 137.4
+    },
+    {
+      "id": "glm53flash",
+      "model": "GLM5.3flash",
+      "modelId": "glm-5.3-flash",
+      "color": "青",
+      "strategy": "潮汐流转（中速铺场解场）",
+      "name": "GLM5.3flash · 潮汐流转",
+      "desc": "执行模型 glm-5.3-flash；颜色 青；策略 潮汐流转（中速铺场解场）；低费撑打出数换流转补抽，点杀控场，6 费终端与升灵收尾",
+      "deck": {
+        "total": 30,
+        "unique": 11,
+        "curve": {
+          "1-2": 16,
+          "3-4": 12,
+          "5-6": 2,
+          "7+": 0
+        },
+        "names": [
+          "3x 连击共鸣",
+          "3x 潮汐幼灵",
+          "3x 溅跃小妖",
+          "3x 调律学徒",
+          "2x 石肤守卫",
+          "2x 凝滞",
+          "3x 深海重压",
+          "3x 潮卫·堤灵",
+          "3x 涡流长老",
+          "3x 大潮调律师",
+          "2x 月潮终曲·海灵圣母"
+        ]
+      },
+      "games": 88,
+      "wins": 49,
+      "losses": 39,
+      "draws": 0,
+      "points": 49,
+      "winRate": 55.68,
+      "avgSteps": 136.8
+    },
+    {
+      "id": "minimaxm3",
+      "model": "MiniMax M3",
+      "modelId": "minimax-m3-pay",
+      "color": "青",
+      "strategy": "潮汐引擎",
+      "name": "MiniMax M3 · 潮汐引擎",
+      "desc": "执行模型 minimax-m3-pay；颜色 青；策略 潮汐引擎 —— 低费铺 IMP 场面、守卫锁面、过牌引擎滚资源后用 136/140 终结。",
+      "deck": {
+        "total": 30,
+        "unique": 12,
+        "curve": {
+          "1-2": 18,
+          "3-4": 10,
+          "5-6": 2,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 连击共鸣",
+          "3x 调律学徒",
+          "3x 石肤守卫",
+          "3x 碎晶冲击",
+          "2x 涨潮反击",
+          "3x 潮卫·堤灵",
+          "3x 深海重压",
+          "1x 潮汐帷幕",
+          "3x 涡流长老",
+          "2x 月潮终曲·海灵圣母",
+          "1x 潮汐号令"
+        ]
+      },
+      "games": 88,
+      "wins": 47,
+      "losses": 41,
+      "draws": 0,
+      "points": 47,
+      "winRate": 53.41,
+      "avgSteps": 130.1
+    },
+    {
+      "id": "hy3",
+      "model": "hy3",
+      "modelId": "hy3",
+      "color": "青",
+      "strategy": "潮汐快攻（Tide Rush）",
+      "name": "hy3 · 潮汐快攻",
+      "desc": "执行模型 hy3；颜色 青；策略 潮汐快攻；低费生物铺场、抽牌续航、深海重压解场，借灵体温蒂妮免费抽牌滚雪球抢血致胜。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 18,
+          "3-4": 9,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 溅跃小妖",
+          "3x 潮汐号令",
+          "3x 深海重压",
+          "3x 潮卫·堤灵",
+          "3x 月潮终曲·海灵圣母",
+          "3x 风暴信使",
+          "3x 连击共鸣",
+          "3x 涡流长老",
+          "3x 调律学徒"
+        ]
+      },
+      "games": 88,
+      "wins": 29,
+      "losses": 59,
+      "draws": 0,
+      "points": 29,
+      "winRate": 32.95,
+      "avgSteps": 140.9
+    },
+    {
+      "id": "step5preview",
+      "model": "step5preview",
+      "modelId": "step-5-preview",
+      "color": "青",
+      "strategy": "潮汐连击",
+      "name": "step5preview · 潮汐连击",
+      "desc": "执行模型 step-5-preview；颜色 青；策略 潮汐连击；1 费抽 2 滚起出牌数，回合末按打出数回手，涡流长老与月潮终曲终结。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 12,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 连击共鸣",
+          "3x 潮汐号令",
+          "3x 溅跃小妖",
+          "3x 碎晶冲击",
+          "3x 深海重压",
+          "3x 潮汐帷幕",
+          "3x 涡流长老",
+          "3x 大潮调律师",
+          "3x 月潮终曲·海灵圣母"
+        ]
+      },
+      "games": 88,
+      "wins": 25,
+      "losses": 62,
+      "draws": 1,
+      "points": 25.5,
+      "winRate": 28.98,
+      "avgSteps": 136.5
+    },
+    {
+      "id": "glm53",
+      "model": "GLM5.3",
+      "modelId": "glm-5.3",
+      "color": "青",
+      "strategy": "潮汐流转中速",
+      "name": "GLM5.3 · 潮汐流转中速",
+      "desc": "执行模型 glm-5.3；颜色 青；策略 潮汐流转中速；低费铺场靠流转抽牌滚雪球，点杀清障后直击灵体",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 18,
+          "3-4": 9,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 溅跃小妖",
+          "3x 潮卫·堤灵",
+          "3x 涡流长老",
+          "3x 月潮终曲·海灵圣母",
+          "3x 深海重压",
+          "3x 连击共鸣",
+          "3x 潮位罗盘",
+          "3x 碎晶冲击",
+          "3x 褪色符文"
+        ]
+      },
+      "games": 88,
+      "wins": 18,
+      "losses": 69,
+      "draws": 1,
+      "points": 18.5,
+      "winRate": 21.02,
+      "avgSteps": 121.7
+    },
+    {
+      "id": "kimi31pro",
+      "model": "KIMI 3.1pro",
+      "modelId": "kimi-k3.1-pro",
+      "color": "青",
+      "strategy": "流转涡流",
+      "name": "KIMI 3.1pro · 流转涡流",
+      "desc": "执行模型 kimi-k3.1-pro；颜色 青；策略 流转涡流；用低费抽牌与法力返还堆叠打出数，以涡流和月潮终结。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 18,
+          "3-4": 9,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 潮汐号令",
+          "3x 深海重压",
+          "3x 潮卫·堤灵",
+          "3x 月潮终曲·海灵圣母",
+          "3x 连击共鸣",
+          "3x 幻象连击",
+          "3x 涡流长老",
+          "3x 调律学徒",
+          "3x 调律赋予"
+        ]
+      },
+      "games": 88,
+      "wins": 5,
+      "losses": 83,
+      "draws": 0,
+      "points": 5,
+      "winRate": 5.68,
+      "avgSteps": 92.9
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,16 @@
+你是职业集换式卡牌游戏（TCG）构筑选手，兼对局脚本工程师。
+
+工作目录：F:/producing/novel/EX4以自创card game为主题/game_lq01
+本阶段是第二阶段：你（同一个模型）在另一个会话里已经完成了一份 11 色评价，现在要基于那份评价做决策。
+
+第一步：读你自己的评价 agents/color-reviews/glm53flash.md；再读 agents/brief/01_基本规则.md、02_卡表.md、03_脚本接口.md。
+第二步：从 11 色里选 1 个主色。选色依据必须引用你自己评价里的具体结论——可以选评价里排第一的，也可以不选，但要说明为什么。
+第三步：构筑 30 张（同名 ≤3、25~40 张、只用主色池与灰色泛用），写 build(pool) + choose(view, moves) + block(view, bmoves)，可选 respond(view, ctx, moves)。动作集、view 字段与自检命令一律以 03 为准。
+第四步：写六节中文设计说明：颜色与卡组构想 / 核心思路 / 卡组清单与曲线 / 动作优先级 / 特殊机制适配 / 取舍与已知弱点。
+第五步：只写 agents/agent-glm53flash.js 与 agents/design/glm53flash.md 两个文件；先写脚本再写说明；完成后只跑一次 node --check 与 agent-selftest 20 局，必须 errors=0 / short=0 / long=0。不要跑循环赛、不要启动服务。
+
+禁读：agents/design/ 与 agents/agent-*.js 下别人的文件、agents/color-reviews/ 下别人的文件、agents/results*.json 与 *.md、README.md、agents/_round*/、以及 灵枢战纪/ 下的卡表原文。
+不要联网、不要搜索全仓库。
+
+完成后一句话汇报：主色、策略名、选色依据（一句）、两项检查结果。
+你的短 id：glm53flash

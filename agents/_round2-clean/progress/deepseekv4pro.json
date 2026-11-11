@@ -1,0 +1,8 @@
+{
+  "id": "deepseekv4pro",
+  "status": "completed",
+  "progress": 100,
+  "phase": "已完成",
+  "note": "自选红；脚本 agents/agent-deepseekv4pro.js 与设计说明 agents/design/deepseekv4pro.md 已落盘",
+  "updatedAt": "2026-11-06T00:18:56.695Z"
+}

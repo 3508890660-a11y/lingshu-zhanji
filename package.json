@@ -1,0 +1,12 @@
+{
+  "name": "lq01-spectator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "灵枢战纪 · 观战台（无头规则引擎 + 脚本 AI + 事件回放）",
+  "scripts": {
+    "start": "node server.mjs",
+    "gen": "node tools/gen_cards.mjs \"../灵枢战纪/卡包/第一弹_灵枢觉醒_卡表.md\" \"js/engine/cards.gen.js\"",
+    "smoke": "node tools/smoke.mjs"
+  }
+}

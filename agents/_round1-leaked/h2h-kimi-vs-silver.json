@@ -1,0 +1,89 @@
+{
+  "runAt": "2026-11-05T15:59:00.801Z",
+  "seeds": 25,
+  "pairCount": 1,
+  "totalGames": 50,
+  "standings": [
+    {
+      "id": "kimi28preview",
+      "model": "KIMI 2.8preview",
+      "modelId": "kimi-k2.8-preview",
+      "color": "青",
+      "strategy": "潮汐涌动（低曲线铺场＋涡流滚雪球＋调律师升灵终结）",
+      "name": "KIMI 2.8preview · 潮汐涌动",
+      "desc": "执行模型 kimi-k2.8-preview；颜色 青；策略 潮汐涌动（低曲线铺场＋涡流滚雪球＋调律师升灵终结）；法力成长快且打出越多抽越多，低曲线高频出牌收益最大",
+      "deck": {
+        "total": 30,
+        "unique": 11,
+        "curve": {
+          "1-2": 17,
+          "3-4": 12,
+          "5-6": 1,
+          "7+": 0
+        },
+        "names": [
+          "3x 潮汐幼灵",
+          "3x 连击共鸣",
+          "3x 溅跃小妖",
+          "3x 风暴信使",
+          "3x 潮汐号令",
+          "2x 调律学徒",
+          "3x 潮卫·堤灵",
+          "3x 深海重压",
+          "3x 涡流长老",
+          "3x 大潮调律师",
+          "1x 月潮终曲·海灵圣母"
+        ]
+      },
+      "games": 50,
+      "wins": 29,
+      "losses": 21,
+      "draws": 0,
+      "points": 29,
+      "winRate": 58,
+      "avgSteps": 84.4
+    },
+    {
+      "id": "deepseekv4pro",
+      "model": "deepseek v4pro",
+      "modelId": "deepseek-v4-pro",
+      "color": "银",
+      "strategy": "银翼方阵（共鸣门槛 + 衍生物铺场 + 永久 buff 雪球）",
+      "name": "deepseek v4pro · 银翼方阵",
+      "desc": "执行模型 deepseek-v4-pro；颜色 银；策略 银翼方阵——共鸣门槛制下以低费单位与衍生物快速铺场，用「共鸣序曲/升格逆鳞」永久 +1/+1 滚雪球，以「碎晶冲击/终章齐鸣」点杀清场后多单位 IMP 直击灵体",
+      "deck": {
+        "total": 30,
+        "unique": 13,
+        "curve": {
+          "1-2": 21,
+          "3-4": 8,
+          "5-6": 1,
+          "7+": 0
+        },
+        "names": [
+          "3x 银翼列兵",
+          "3x 银翼长枪兵",
+          "3x 银翼枪骑兵",
+          "3x 银翼战马",
+          "3x 银翼方阵圣盾",
+          "3x 征募长号",
+          "3x 共鸣序曲",
+          "3x 升格逆鳞",
+          "1x 方阵壁垒",
+          "2x 碎晶冲击",
+          "1x 银翼重装要塞",
+          "1x 终章齐鸣",
+          "1x 方阵巨像"
+        ]
+      },
+      "games": 50,
+      "wins": 21,
+      "losses": 29,
+      "draws": 0,
+      "points": 21,
+      "winRate": 42,
+      "avgSteps": 84.4
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,628 @@
+{
+  "format": "swiss-bo10",
+  "rounds": 5,
+  "players": 12,
+  "totalGames": 300,
+  "errors": [],
+  "roundLogs": [
+    {
+      "round": 1,
+      "rows": [
+        {
+          "round": 1,
+          "table": 1,
+          "a": "deepseekv41flash",
+          "b": "deepseekv4pro",
+          "aw": 0,
+          "bw": 10,
+          "dr": 0,
+          "result": "B",
+          "rematch": false
+        },
+        {
+          "round": 1,
+          "table": 2,
+          "a": "glm53",
+          "b": "glm53flash",
+          "aw": 10,
+          "bw": 0,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 1,
+          "table": 3,
+          "a": "hy3",
+          "b": "hy4",
+          "aw": 1,
+          "bw": 9,
+          "dr": 0,
+          "result": "B",
+          "rematch": false
+        },
+        {
+          "round": 1,
+          "table": 4,
+          "a": "kimi28preview",
+          "b": "kimi31pro",
+          "aw": 10,
+          "bw": 0,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 1,
+          "table": 5,
+          "a": "mimov26pro",
+          "b": "minimaxm3",
+          "aw": 8,
+          "bw": 2,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 1,
+          "table": 6,
+          "a": "minimaxm31flash",
+          "b": "step5preview",
+          "aw": 4,
+          "bw": 6,
+          "dr": 0,
+          "result": "B",
+          "rematch": false
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "rows": [
+        {
+          "round": 2,
+          "table": 1,
+          "a": "deepseekv4pro",
+          "b": "kimi28preview",
+          "aw": 9,
+          "bw": 1,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 2,
+          "table": 2,
+          "a": "glm53",
+          "b": "hy4",
+          "aw": 1,
+          "bw": 9,
+          "dr": 0,
+          "result": "B",
+          "rematch": false
+        },
+        {
+          "round": 2,
+          "table": 3,
+          "a": "mimov26pro",
+          "b": "step5preview",
+          "aw": 10,
+          "bw": 0,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 2,
+          "table": 4,
+          "a": "minimaxm31flash",
+          "b": "minimaxm3",
+          "aw": 3,
+          "bw": 7,
+          "dr": 0,
+          "result": "B",
+          "rematch": false
+        },
+        {
+          "round": 2,
+          "table": 5,
+          "a": "hy3",
+          "b": "deepseekv41flash",
+          "aw": 4,
+          "bw": 6,
+          "dr": 0,
+          "result": "B",
+          "rematch": false
+        },
+        {
+          "round": 2,
+          "table": 6,
+          "a": "kimi31pro",
+          "b": "glm53flash",
+          "aw": 7,
+          "bw": 3,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "rows": [
+        {
+          "round": 3,
+          "table": 1,
+          "a": "deepseekv4pro",
+          "b": "mimov26pro",
+          "aw": 4,
+          "bw": 6,
+          "dr": 0,
+          "result": "B",
+          "rematch": false
+        },
+        {
+          "round": 3,
+          "table": 2,
+          "a": "hy4",
+          "b": "kimi28preview",
+          "aw": 5,
+          "bw": 5,
+          "dr": 0,
+          "result": "D",
+          "rematch": false
+        },
+        {
+          "round": 3,
+          "table": 3,
+          "a": "glm53",
+          "b": "minimaxm3",
+          "aw": 3,
+          "bw": 7,
+          "dr": 0,
+          "result": "B",
+          "rematch": false
+        },
+        {
+          "round": 3,
+          "table": 4,
+          "a": "kimi31pro",
+          "b": "step5preview",
+          "aw": 7,
+          "bw": 3,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 3,
+          "table": 5,
+          "a": "deepseekv41flash",
+          "b": "minimaxm31flash",
+          "aw": 8,
+          "bw": 2,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 3,
+          "table": 6,
+          "a": "hy3",
+          "b": "glm53flash",
+          "aw": 8,
+          "bw": 2,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "rows": [
+        {
+          "round": 4,
+          "table": 1,
+          "a": "mimov26pro",
+          "b": "hy4",
+          "aw": 6,
+          "bw": 4,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 4,
+          "table": 2,
+          "a": "deepseekv4pro",
+          "b": "minimaxm3",
+          "aw": 10,
+          "bw": 0,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 4,
+          "table": 3,
+          "a": "kimi31pro",
+          "b": "deepseekv41flash",
+          "aw": 5,
+          "bw": 4,
+          "dr": 1,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 4,
+          "table": 4,
+          "a": "kimi28preview",
+          "b": "glm53",
+          "aw": 6,
+          "bw": 4,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 4,
+          "table": 5,
+          "a": "hy3",
+          "b": "step5preview",
+          "aw": 5,
+          "bw": 5,
+          "dr": 0,
+          "result": "D",
+          "rematch": false
+        },
+        {
+          "round": 4,
+          "table": 6,
+          "a": "minimaxm31flash",
+          "b": "glm53flash",
+          "aw": 6,
+          "bw": 4,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "rows": [
+        {
+          "round": 5,
+          "table": 1,
+          "a": "mimov26pro",
+          "b": "kimi31pro",
+          "aw": 10,
+          "bw": 0,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 5,
+          "table": 2,
+          "a": "deepseekv4pro",
+          "b": "hy4",
+          "aw": 10,
+          "bw": 0,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 5,
+          "table": 3,
+          "a": "kimi28preview",
+          "b": "deepseekv41flash",
+          "aw": 6,
+          "bw": 4,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 5,
+          "table": 4,
+          "a": "minimaxm3",
+          "b": "hy3",
+          "aw": 8,
+          "bw": 2,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 5,
+          "table": 5,
+          "a": "step5preview",
+          "b": "glm53",
+          "aw": 7,
+          "bw": 3,
+          "dr": 0,
+          "result": "A",
+          "rematch": false
+        },
+        {
+          "round": 5,
+          "table": 6,
+          "a": "minimaxm31flash",
+          "b": "glm53flash",
+          "aw": 7,
+          "bw": 3,
+          "dr": 0,
+          "result": "A",
+          "rematch": true
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "rank": 1,
+      "id": "mimov26pro",
+      "model": "MIMO-v2.6-pro",
+      "color": "红",
+      "boW": 5,
+      "boL": 0,
+      "boD": 0,
+      "points": 5,
+      "gw": 40,
+      "gl": 10,
+      "gd": 0,
+      "gameRate": 80,
+      "avgSteps": 45.9,
+      "opponents": [
+        "minimaxm3",
+        "step5preview",
+        "deepseekv4pro",
+        "hy4",
+        "kimi31pro"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "deepseekv4pro",
+      "model": "deepseek v4pro",
+      "color": "红",
+      "boW": 4,
+      "boL": 1,
+      "boD": 0,
+      "points": 4,
+      "gw": 43,
+      "gl": 7,
+      "gd": 0,
+      "gameRate": 86,
+      "avgSteps": 41.5,
+      "opponents": [
+        "deepseekv41flash",
+        "kimi28preview",
+        "mimov26pro",
+        "minimaxm3",
+        "hy4"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "kimi28preview",
+      "model": "KIMI 2.8preview",
+      "color": "红",
+      "boW": 3,
+      "boL": 1,
+      "boD": 1,
+      "points": 3.5,
+      "gw": 28,
+      "gl": 22,
+      "gd": 0,
+      "gameRate": 56,
+      "avgSteps": 55.2,
+      "opponents": [
+        "kimi31pro",
+        "deepseekv4pro",
+        "hy4",
+        "glm53",
+        "deepseekv41flash"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "minimaxm3",
+      "model": "MiniMax M3",
+      "color": "绿",
+      "boW": 3,
+      "boL": 2,
+      "boD": 0,
+      "points": 3,
+      "gw": 24,
+      "gl": 26,
+      "gd": 0,
+      "gameRate": 48,
+      "avgSteps": 63.4,
+      "opponents": [
+        "mimov26pro",
+        "minimaxm31flash",
+        "glm53",
+        "deepseekv4pro",
+        "hy3"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "kimi31pro",
+      "model": "KIMI 3.1pro",
+      "color": "红",
+      "boW": 3,
+      "boL": 2,
+      "boD": 0,
+      "points": 3,
+      "gw": 19,
+      "gl": 30,
+      "gd": 1,
+      "gameRate": 39,
+      "avgSteps": 63.3,
+      "opponents": [
+        "kimi28preview",
+        "glm53flash",
+        "step5preview",
+        "deepseekv41flash",
+        "mimov26pro"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "hy4",
+      "model": "hy4",
+      "color": "绿",
+      "boW": 2,
+      "boL": 2,
+      "boD": 1,
+      "points": 2.5,
+      "gw": 27,
+      "gl": 23,
+      "gd": 0,
+      "gameRate": 54,
+      "avgSteps": 72.1,
+      "opponents": [
+        "hy3",
+        "glm53",
+        "kimi28preview",
+        "mimov26pro",
+        "deepseekv4pro"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "step5preview",
+      "model": "step5preview",
+      "color": "绿",
+      "boW": 2,
+      "boL": 2,
+      "boD": 1,
+      "points": 2.5,
+      "gw": 21,
+      "gl": 29,
+      "gd": 0,
+      "gameRate": 42,
+      "avgSteps": 70.7,
+      "opponents": [
+        "minimaxm31flash",
+        "mimov26pro",
+        "kimi31pro",
+        "hy3",
+        "glm53"
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "deepseekv41flash",
+      "model": "deepseek v4.1flash",
+      "color": "青",
+      "boW": 2,
+      "boL": 3,
+      "boD": 0,
+      "points": 2,
+      "gw": 22,
+      "gl": 27,
+      "gd": 1,
+      "gameRate": 45,
+      "avgSteps": 80.4,
+      "opponents": [
+        "deepseekv4pro",
+        "hy3",
+        "minimaxm31flash",
+        "kimi31pro",
+        "kimi28preview"
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "minimaxm31flash",
+      "model": "MiniMax M3.1flash",
+      "color": "绿",
+      "boW": 2,
+      "boL": 3,
+      "boD": 0,
+      "points": 2,
+      "gw": 22,
+      "gl": 28,
+      "gd": 0,
+      "gameRate": 44,
+      "avgSteps": 93.2,
+      "opponents": [
+        "step5preview",
+        "minimaxm3",
+        "deepseekv41flash",
+        "glm53flash"
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "hy3",
+      "model": "hy3",
+      "color": "绿",
+      "boW": 1,
+      "boL": 3,
+      "boD": 1,
+      "points": 1.5,
+      "gw": 20,
+      "gl": 30,
+      "gd": 0,
+      "gameRate": 40,
+      "avgSteps": 87.7,
+      "opponents": [
+        "hy4",
+        "deepseekv41flash",
+        "glm53flash",
+        "step5preview",
+        "minimaxm3"
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "glm53",
+      "model": "GLM5.3",
+      "color": "青",
+      "boW": 1,
+      "boL": 4,
+      "boD": 0,
+      "points": 1,
+      "gw": 21,
+      "gl": 29,
+      "gd": 0,
+      "gameRate": 42,
+      "avgSteps": 88.1,
+      "opponents": [
+        "glm53flash",
+        "hy4",
+        "minimaxm3",
+        "kimi28preview",
+        "step5preview"
+      ]
+    },
+    {
+      "rank": 12,
+      "id": "glm53flash",
+      "model": "GLM5.3flash",
+      "color": "橙",
+      "boW": 0,
+      "boL": 5,
+      "boD": 0,
+      "points": 0,
+      "gw": 12,
+      "gl": 38,
+      "gd": 0,
+      "gameRate": 24,
+      "avgSteps": 100.2,
+      "opponents": [
+        "glm53",
+        "kimi31pro",
+        "hy3",
+        "minimaxm31flash"
+      ]
+    }
+  ]
+}

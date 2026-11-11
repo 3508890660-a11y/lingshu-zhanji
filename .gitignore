@@ -1,0 +1,25 @@
+# 视频成品与渲染依赖（约 820M）
+video_bilibili/
+video_rules_bilibili/
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.pyc
+
+# 媒体
+*.mp4
+*.wav
+*.mp3
+
+# 数据库与备份
+*.db
+*.bak
+*.bak-*
+
+# 误建目录的备份（不随仓库分发）
+agents/_uniform/stray-writes/
+
+# 系统
+.DS_Store
+Thumbs.db

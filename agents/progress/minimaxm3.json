@@ -1,0 +1,8 @@
+{
+  "id": "minimaxm3",
+  "status": "completed",
+  "progress": 100,
+  "phase": "已完成",
+  "note": "本轮调整：巨兽冲锋改为加速未出手的高 IMP 主攻、block 按收益定价、解场/点杀加目标判据、升灵门槛放宽；牌位去掉褪色符文与 1 张盖亚幼株，换入灰色碎晶冲击与凝滞（30 张/15 名目，曲线 17/10/3/0）；node --check 通过，自检 errors=0 / short=0 / long=0。",
+  "updatedAt": "2026-11-06T05:51:45.218Z"
+}

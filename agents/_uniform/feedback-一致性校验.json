@@ -1,0 +1,68 @@
+{
+  "source": "agents/results-swiss.json",
+  "field": "gameRate（局胜率，仅本人）",
+  "allIdenticalExceptRateLine": true,
+  "templateSha256": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510",
+  "seats": [
+    {
+      "id": "glm53flash",
+      "rate": 86,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "step5preview",
+      "rate": 68,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "kimi28preview",
+      "rate": 68,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "hy3",
+      "rate": 54,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "deepseekv4pro",
+      "rate": 52,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "mimov26pro",
+      "rate": 42,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "kimi31pro",
+      "rate": 42,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "minimaxm3",
+      "rate": 46,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "glm53",
+      "rate": 29,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "hy4",
+      "rate": 44,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "minimaxm31flash",
+      "rate": 42,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    },
+    {
+      "id": "deepseekv41flash",
+      "rate": 27,
+      "sha": "3f0b8b964aef77c10b3120f232919f62844c4d56e337d59207c41bb283435510"
+    }
+  ]
+}

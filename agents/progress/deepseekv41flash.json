@@ -1,0 +1,8 @@
+{
+  "id": "deepseekv41flash",
+  "status": "completed",
+  "progress": 100,
+  "phase": "已完成",
+  "note": "自选绿色；脚本 agents/agent-deepseekv41flash.js 与设计说明 agents/design/deepseekv41flash.md 已落盘；node --check 通过，selftest 20 局 errors=0/short=0/long=0。",
+  "updatedAt": "2026-11-06T02:29:21.907Z"
+}

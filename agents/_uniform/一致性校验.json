@@ -1,0 +1,58 @@
+{
+  "templateSha256": "90dea4170d29b22ce1a6a9b60504b03ea5292359d3e093e3bf506011e648cb61",
+  "normalizedSha256": "2666d69de1795724ee591fb82fc622128d1557e9141d4ffc421416ccb756b2be",
+  "seatCount": 12,
+  "allIdenticalExceptSeatLine": true,
+  "seats": [
+    {
+      "id": "hy4",
+      "same": true
+    },
+    {
+      "id": "hy3",
+      "same": true
+    },
+    {
+      "id": "glm53",
+      "same": true
+    },
+    {
+      "id": "glm53flash",
+      "same": true
+    },
+    {
+      "id": "minimaxm3",
+      "same": true
+    },
+    {
+      "id": "minimaxm31flash",
+      "same": true
+    },
+    {
+      "id": "kimi31pro",
+      "same": true
+    },
+    {
+      "id": "kimi28preview",
+      "same": true
+    },
+    {
+      "id": "deepseekv41flash",
+      "same": true
+    },
+    {
+      "id": "deepseekv4pro",
+      "same": true
+    },
+    {
+      "id": "step5preview",
+      "same": true
+    },
+    {
+      "id": "mimov26pro",
+      "same": true
+    }
+  ],
+  "brief05TableMatchesSeats": true,
+  "referenceContext": "agents/brief/06_上一轮构筑参考.md"
+}

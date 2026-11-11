@@ -1,0 +1,484 @@
+{
+  "runAt": "2026-11-06T03:39:44.981Z",
+  "seeds": 4,
+  "pairCount": 66,
+  "totalGames": 528,
+  "standings": [
+    {
+      "id": "glm53flash",
+      "model": "GLM5.3flash",
+      "modelId": "glm-5.3-flash",
+      "color": "红",
+      "strategy": "焚天倾泻",
+      "name": "GLM5.3flash · 焚天倾泻",
+      "desc": "执行模型 glm-5.3-flash；颜色 红；策略 焚天倾泻；激情门槛不消耗，全曲线冲锋铺场抢血，灵体启动加 IMP，烈阳断刃清路，焚天血咒直伤收尾",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 18,
+          "3-4": 12,
+          "5-6": 0,
+          "7+": 0
+        },
+        "names": [
+          "3x 怒火新兵",
+          "3x 熔岩裂爪",
+          "3x 暴走狂犬",
+          "3x 烈阳断刃",
+          "3x 焚天血咒",
+          "3x 血斧掷颅手",
+          "3x 烬原猛虎",
+          "3x 燃焰卫士",
+          "3x 掷火散兵",
+          "3x 战鼓蛮兵"
+        ]
+      },
+      "games": 88,
+      "wins": 81,
+      "losses": 6,
+      "draws": 1,
+      "points": 81.5,
+      "winRate": 92.61,
+      "avgSteps": 46
+    },
+    {
+      "id": "kimi28preview",
+      "model": "KIMI 2.8preview",
+      "modelId": "kimi-k2.8-preview",
+      "color": "绿",
+      "strategy": "地脉践踏",
+      "name": "KIMI 2.8preview · 地脉践踏",
+      "desc": "执行模型 kimi-k2.8-preview；颜色 绿；策略 地脉践踏；地标白拿永久法力加速，践踏巨兽提前落地直击",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 12,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 幼叶之池",
+          "3x 母神共鸣地",
+          "3x 摇篮藤根",
+          "3x 盖亚幼株",
+          "3x 荆棘绞杀",
+          "3x 猎杀弱肉",
+          "3x 落叶风暴",
+          "3x 荒原猛犸",
+          "3x 裂地巨犀",
+          "3x 藤海怒涛"
+        ]
+      },
+      "games": 88,
+      "wins": 77,
+      "losses": 11,
+      "draws": 0,
+      "points": 77,
+      "winRate": 87.5,
+      "avgSteps": 74.3
+    },
+    {
+      "id": "step5preview",
+      "model": "step5preview",
+      "modelId": "step-5-preview",
+      "color": "蓝",
+      "strategy": "阈控霜流",
+      "name": "step5preview · 阈控霜流",
+      "desc": "执行模型 step-5-preview；颜色 蓝；策略 阈控霜流；手牌门槛控制：每轮净抽 2 且不弃牌，用手牌厚度滚资源，以冻结/回手/瞬间反击解场，T3 起持续打脸，拖入后期灼烧与疲劳差。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 0,
+          "3-4": 18,
+          "5-6": 12,
+          "7+": 0
+        },
+        "names": [
+          "3x 筹算学徒",
+          "3x 雾行者",
+          "3x 静默哨兵",
+          "3x 时痕采集者",
+          "3x 级数法师",
+          "3x 冰晶结界师",
+          "3x 无穷级数",
+          "3x 霜结咒阵",
+          "3x 时间尽头",
+          "3x 抑能重击"
+        ]
+      },
+      "games": 88,
+      "wins": 59,
+      "losses": 29,
+      "draws": 0,
+      "points": 59,
+      "winRate": 67.05,
+      "avgSteps": 141.5
+    },
+    {
+      "id": "mimov26pro",
+      "model": "MIMO-v2.6-pro",
+      "modelId": "mimo-v2.6-pro",
+      "color": "绿",
+      "strategy": "地脉践踏",
+      "name": "MIMO-v2.6-pro · 地脉践踏",
+      "desc": "执行模型 mimo-v2.6-pro；颜色 绿；策略 地脉践踏；地标抬升法力与补牌，践踏巨兽把溢出伤害推到灵体",
+      "deck": {
+        "total": 30,
+        "unique": 13,
+        "curve": {
+          "1-2": 13,
+          "3-4": 13,
+          "5-6": 4,
+          "7+": 0
+        },
+        "names": [
+          "3x 幼叶之池",
+          "3x 母神共鸣地",
+          "2x 摇篮藤根",
+          "3x 荆棘绞杀",
+          "2x 巨兽冲锋",
+          "2x 大地脉动",
+          "3x 林冠漫步者",
+          "2x 猎杀弱肉",
+          "2x 落叶风暴",
+          "3x 荒原猛犸",
+          "1x 藤海怒涛",
+          "2x 裂地巨犀",
+          "2x 林冠泰坦"
+        ]
+      },
+      "games": 88,
+      "wins": 46,
+      "losses": 41,
+      "draws": 1,
+      "points": 46.5,
+      "winRate": 52.84,
+      "avgSteps": 76
+    },
+    {
+      "id": "hy3",
+      "model": "hy3",
+      "modelId": "hy3",
+      "color": "绿",
+      "strategy": "地脉践踏中速（地标 ramp ＋ 践踏推脸 ＋ 对敌 AoE 解场）",
+      "name": "hy3 · 地脉践踏",
+      "desc": "执行模型 hy3；颜色 绿；策略 地脉践踏中速（地标 ramp + 践踏推脸 + 对敌 AoE 解场）；理由仅来自卡面与规则。",
+      "deck": {
+        "total": 30,
+        "unique": 12,
+        "curve": {
+          "1-2": 17,
+          "3-4": 10,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 幼叶之池",
+          "3x 盖亚幼株",
+          "3x 母神共鸣地",
+          "3x 摇篮藤根",
+          "3x 荆棘绞杀",
+          "2x 巨兽冲锋",
+          "2x 落叶风暴",
+          "3x 林冠漫步者",
+          "2x 藤海怒涛",
+          "3x 荒原猛犸",
+          "2x 裂地巨犀",
+          "1x 林冠泰坦"
+        ]
+      },
+      "games": 88,
+      "wins": 42,
+      "losses": 46,
+      "draws": 0,
+      "points": 42,
+      "winRate": 47.73,
+      "avgSteps": 74.2
+    },
+    {
+      "id": "kimi31pro",
+      "model": "KIMI 3.1pro",
+      "modelId": "kimi-k3.1-pro",
+      "color": "橙",
+      "strategy": "淬锋武装中速",
+      "name": "KIMI 3.1pro · 淬锋武装中速",
+      "desc": "执行模型 kimi-k3.1-pro；颜色 橙；策略 淬锋武装中速；低费单位配合装备与淬炼清场持续推进",
+      "deck": {
+        "total": 30,
+        "unique": 12,
+        "curve": {
+          "1-2": 24,
+          "3-4": 6,
+          "5-6": 0,
+          "7+": 0
+        },
+        "names": [
+          "3x 军械新兵·阿彻",
+          "3x 速淬短刃",
+          "2x 制式军刀",
+          "3x 淬火学徒",
+          "3x 冷却守卫",
+          "3x 淬层监工·布鲁诺",
+          "2x 淬核巨锤",
+          "3x 淬火号令",
+          "2x 淬河·千叠锻浪",
+          "2x 铁壁队长·格莱德",
+          "2x 甲卫重盾",
+          "2x 布线学徒·诺诺"
+        ]
+      },
+      "games": 88,
+      "wins": 39,
+      "losses": 48,
+      "draws": 1,
+      "points": 39.5,
+      "winRate": 44.89,
+      "avgSteps": 144.6
+    },
+    {
+      "id": "minimaxm3",
+      "model": "MiniMax M3",
+      "modelId": "minimax-m3-pay",
+      "color": "绿",
+      "strategy": "地脉拓殖·巨木升格",
+      "name": "MiniMax M3 · 地脉拓殖·巨木升格",
+      "desc": "执行模型 minimax-m3-pay；颜色 绿；策略 地脉拓殖·巨木升格；地标加速攒法力，摇篮藤根与盖亚幼株当升格素材，践踏巨兽与巨木之心压脸。",
+      "deck": {
+        "total": 30,
+        "unique": 14,
+        "curve": {
+          "1-2": 17,
+          "3-4": 10,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "3x 盖亚幼株",
+          "2x 幼叶之池",
+          "3x 摇篮藤根",
+          "3x 荆棘绞杀",
+          "3x 猎杀弱肉",
+          "2x 落叶风暴",
+          "2x 母神共鸣地",
+          "3x 荒原猛犸",
+          "2x 裂地巨犀",
+          "1x 林冠泰坦",
+          "2x 巨兽冲锋",
+          "2x 藤海怒涛",
+          "1x 褪色符文",
+          "1x 祭品石"
+        ]
+      },
+      "games": 88,
+      "wins": 37,
+      "losses": 51,
+      "draws": 0,
+      "points": 37,
+      "winRate": 42.05,
+      "avgSteps": 89.2
+    },
+    {
+      "id": "hy4",
+      "model": "hy4",
+      "modelId": "hy4std",
+      "color": "橙",
+      "strategy": "千叠锻炉·联结滚雪",
+      "name": "hy4 · 千叠锻炉·联结滚雪",
+      "desc": "执行模型 hy4std；颜色 橙；策略 千叠锻炉·联结滚雪；锻造区滚资源、装备补身材、攻击收尾后升灵换外枢灵体的中速构筑",
+      "deck": {
+        "total": 30,
+        "unique": 12,
+        "curve": {
+          "1-2": 23,
+          "3-4": 7,
+          "5-6": 0,
+          "7+": 0
+        },
+        "names": [
+          "3x 军械新兵·阿彻",
+          "3x 速淬短刃",
+          "3x 制式军刀",
+          "3x 淬火学徒",
+          "3x 冷却守卫",
+          "2x 铁壁队长·格莱德",
+          "3x 布线学徒·诺诺",
+          "3x 淬核巨锤",
+          "2x 淬火号令",
+          "2x 淬河·千叠锻浪",
+          "2x 灵脉碎片",
+          "1x 褪色符文"
+        ]
+      },
+      "games": 88,
+      "wins": 37,
+      "losses": 51,
+      "draws": 0,
+      "points": 37,
+      "winRate": 42.05,
+      "avgSteps": 136.6
+    },
+    {
+      "id": "deepseekv4pro",
+      "model": "deepseek v4pro",
+      "modelId": "deepseek-v4-pro",
+      "color": "绿",
+      "strategy": "地脉生根·践踏升灵",
+      "name": "deepseek v4pro · 地脉生根·践踏升灵",
+      "desc": "执行模型 deepseek-v4-pro；颜色 绿；策略 地脉生根·践踏升灵；地标滚法力、践踏兽压脸、外枢升灵收尾",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 15,
+          "3-4": 9,
+          "5-6": 6,
+          "7+": 0
+        },
+        "names": [
+          "3x 幼叶之池",
+          "3x 母神共鸣地",
+          "3x 盖亚幼株",
+          "3x 摇篮藤根",
+          "3x 林冠漫步者",
+          "3x 荒原猛犸",
+          "3x 裂地巨犀",
+          "3x 林冠泰坦",
+          "3x 荆棘绞杀",
+          "3x 落叶风暴"
+        ]
+      },
+      "games": 88,
+      "wins": 31,
+      "losses": 56,
+      "draws": 1,
+      "points": 31.5,
+      "winRate": 35.8,
+      "avgSteps": 76.3
+    },
+    {
+      "id": "minimaxm31flash",
+      "model": "MiniMax M3.1flash",
+      "modelId": "minimax-m3.1-flash",
+      "color": "黑",
+      "strategy": "骨债引擎（以弃换场）",
+      "name": "MiniMax M3.1flash · 骨债引擎",
+      "desc": "执行模型 minimax-m3.1-flash；颜色 黑；策略 骨债引擎（以弃换场）；用弃牌堆循环 2 点 IMP 的场面，靠亡命者的伤害与复活把对手 20 张生命卡磨穿。",
+      "deck": {
+        "total": 30,
+        "unique": 14,
+        "curve": {
+          "1-2": 18,
+          "3-4": 12,
+          "5-6": 0,
+          "7+": 0
+        },
+        "names": [
+          "3x 自笞者",
+          "3x 石心祭品",
+          "3x 墓道行尸",
+          "3x 拾烬者",
+          "2x 以魂为媒",
+          "2x 碎晶冲击",
+          "1x 凝滞",
+          "1x 石肤守卫",
+          "3x 融魂工匠",
+          "2x 厚痂工程",
+          "1x 永夜墓碑",
+          "3x 肉砧巨魔",
+          "2x 亡绝祷歌",
+          "1x 魂坯重锤"
+        ]
+      },
+      "games": 88,
+      "wins": 29,
+      "losses": 58,
+      "draws": 1,
+      "points": 29.5,
+      "winRate": 33.52,
+      "avgSteps": 102
+    },
+    {
+      "id": "glm53",
+      "model": "GLM5.3",
+      "modelId": "glm-5.3",
+      "color": "绿",
+      "strategy": "地脉践踏",
+      "name": "GLM5.3 · 地脉践踏",
+      "desc": "执行模型 glm-5.3；颜色 绿；策略 地脉践踏；地标滚法力与补牌，中后期践踏巨兽推脸取胜",
+      "deck": {
+        "total": 30,
+        "unique": 12,
+        "curve": {
+          "1-2": 16,
+          "3-4": 11,
+          "5-6": 3,
+          "7+": 0
+        },
+        "names": [
+          "2x 盖亚幼株",
+          "3x 幼叶之池",
+          "3x 摇篮藤根",
+          "3x 荆棘绞杀",
+          "2x 落叶风暴",
+          "3x 母神共鸣地",
+          "3x 林冠漫步者",
+          "1x 大地脉动",
+          "3x 荒原猛犸",
+          "3x 裂地巨犀",
+          "2x 巨兽冲锋",
+          "2x 藤海怒涛"
+        ]
+      },
+      "games": 88,
+      "wins": 27,
+      "losses": 60,
+      "draws": 1,
+      "points": 27.5,
+      "winRate": 31.25,
+      "avgSteps": 84.7
+    },
+    {
+      "id": "deepseekv41flash",
+      "model": "deepseek v4.1flash",
+      "modelId": "deepseek-v4.1-flash",
+      "color": "绿",
+      "strategy": "地脉巨兽（ramp-trample）",
+      "name": "deepseek v4.1flash · 地脉巨兽",
+      "desc": "执行模型 deepseek-v4.1-flash；颜色 绿；策略 地脉巨兽（ramp-trample）；以净零地标与灵体法力提前落地践踏巨兽，用点杀与单边扫场开路后压脸。",
+      "deck": {
+        "total": 30,
+        "unique": 10,
+        "curve": {
+          "1-2": 12,
+          "3-4": 12,
+          "5-6": 6,
+          "7+": 0
+        },
+        "names": [
+          "3x 幼叶之池",
+          "3x 摇篮藤根",
+          "3x 荆棘绞杀",
+          "3x 落叶风暴",
+          "3x 林冠漫步者",
+          "3x 荒原猛犸",
+          "3x 裂地巨犀",
+          "3x 林冠泰坦",
+          "3x 巨兽冲锋",
+          "3x 藤海怒涛"
+        ]
+      },
+      "games": 88,
+      "wins": 19,
+      "losses": 67,
+      "draws": 2,
+      "points": 20,
+      "winRate": 22.73,
+      "avgSteps": 77
+    }
+  ],
+  "errors": []
+}

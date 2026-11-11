@@ -1,0 +1,67 @@
+{
+  "stage": "color-review",
+  "allIdenticalExceptIdLine": true,
+  "templateSha256": "1a385be67be95f6ff0907775dafd64326388048e8386cac216fc21b1a364f17a",
+  "seats": [
+    {
+      "id": "hy4",
+      "model": "hy4std",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "hy3",
+      "model": "hy3",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "glm53",
+      "model": "glm-5.3",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "glm53flash",
+      "model": "glm-5.3-flash",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "minimaxm3",
+      "model": "minimax-m3-pay",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "minimaxm31flash",
+      "model": "minimax-m3.1-flash",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "kimi31pro",
+      "model": "kimi-k3.1-pro",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "kimi28preview",
+      "model": "kimi-k2.8-preview",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "deepseekv41flash",
+      "model": "deepseek-v4.1-flash",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "deepseekv4pro",
+      "model": "deepseek-v4-pro",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "step5preview",
+      "model": "step-5-preview",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    },
+    {
+      "id": "mimov26pro",
+      "model": "mimo-v2.6-pro",
+      "sha": "1a5bba73d168bc9253c892fd8c71c8e299659d82955597693ef72aa59ba21c29"
+    }
+  ]
+}
