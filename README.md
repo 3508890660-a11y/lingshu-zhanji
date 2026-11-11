@@ -58,3 +58,7 @@ node tools/agents-swiss.mjs --rounds 5 --bo 10 --out agents/results
 ## 声明
 
 规则书、卡表与卡组设计不在本仓库。代码与实验数据仅供研究，不构成对任何既有商业产品的复制。
+
+## 许可
+
+本项目采用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh) 许可：允许署名、非商业性使用与改编，**禁止商业用途**。完整法律文本见 [`LICENSE`](LICENSE)。
